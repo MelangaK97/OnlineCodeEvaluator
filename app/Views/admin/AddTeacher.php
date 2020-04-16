@@ -16,10 +16,10 @@
 <body>
 
 <div class="container-fluid row mt-5">
-    <div class="col-md-5 icon-add-course row">
+    <div class="col-md-5 icon-add-teacher row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <img src="<?php echo base_url('OnlineCodeEvaluator/assets/images/undraw_add_user_ipe3.svg')?>" alt="add course">
+            <img src="<?php echo base_url('OnlineCodeEvaluator/assets/images/undraw_teaching_f1cm.svg')?>" alt="add course">
         </div>
         <div class="col-md-2"></div>
     </div>
@@ -42,26 +42,26 @@
             </div>
             <div class="form-group">
                 <label for="address">Address :</label>
-                <input type="text" class="form-control" name="address" required>
+                <input type="text" class="form-control" name="address">
             </div>
             <label for="last-name">Contact :</label>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="home">Home :</label>
-                    <input type="tel" class="form-control" name="home" required>
+                    <input type="tel" class="form-control" name="home">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="mobile">Mobile :</label>
-                    <input type="tel" class="form-control" name="mobile">
+                    <input type="tel" class="form-control" name="mobile" required>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <button type="submit" class="btn btn-primary add-btn">Add</button>
                 </div>
-                <div class="col-md-8"></div>
-                <div class="col-md-2">
-                    <button type="submit" class="btn btn-secondary add-btn">Cancel</button>
+                <div class="col-md-6"></div>
+                <div class="col-md-3">
+                    <a href="<?php echo base_url('OnlineCodeEvaluator/public/admin/teachers')?>" type="submit" class="btn btn-secondary add-btn">Cancel</a>
                 </div>
             </div>
         </form>

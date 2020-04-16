@@ -18,7 +18,12 @@
     color: white;
 }
 
-.card-body-head>h5 {
+.card-title-details {
+    background-color: #61C0C6;
+    color: white;
+}
+
+.card-body-head>h4 {
     margin-bottom: 0;
 }
 
@@ -28,4 +33,20 @@
 
 .add-btn {
     width: 100%;
+}
+
+.icon-add-teacher {
+    margin-top: 100px;
+}
+
+.icon-add-teacher img {
+    width: 100%;
+}
+
+.icon-view-teacher img {
+    width: 100%;
+}
+
+.icon-view-course img {
+    width: 80%;
 }
