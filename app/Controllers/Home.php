@@ -13,4 +13,8 @@ class Home extends BaseController
     public function viewAssignment() {
         return view('User/Student/ViewAssignment');
     }
+
+    public function viewGrade() {
+        return view('User/Student/ViewGrade');
+    }
 }
