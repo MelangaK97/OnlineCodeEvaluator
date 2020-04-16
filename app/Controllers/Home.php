@@ -2,12 +2,15 @@
 
 class Home extends BaseController
 {
-	public function index()
-	{
+	public function index() {
 		return view('welcome_message');
 	}
-    public function admin()
-    {
-        return view('welcome_message');
+
+    public function viewCourse() {
+        return view('User/Student/ViewCourse');
+    }
+
+    public function viewAssignment() {
+        return view('User/Student/ViewAssignment');
     }
 }
