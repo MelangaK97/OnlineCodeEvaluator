@@ -1,4 +1,4 @@
-<?= $this->extend('Components/UserLayout') ?>
+<?= $this->extend('Components/StudentLayout') ?>
 
 <?= $this->section('content') ?>
 

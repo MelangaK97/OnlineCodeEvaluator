@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<?php echo base_url('OnlineCodeEvaluator/assets/user/CSS/style.css'); ?>">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
-    <title>View Grade</title>
+    <title>Student</title>
 </head>
 <body>
 
