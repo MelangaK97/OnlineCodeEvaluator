@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url('OnlineCodeEvaluator/assets/user/CSS/style.css'); ?>">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
