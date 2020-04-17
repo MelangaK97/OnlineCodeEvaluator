@@ -18,11 +18,19 @@ class Teacher extends BaseController
         return view('User/Teacher/Compiler');
     }
 
+    public function graded() {
+        return view('User/Teacher/GradedAssignments');
+    }
+
     public function assignments() {
         return view('User/Teacher/Assignments');
     }
 
     public function issues() {
         return view('User/Teacher/Issues');
+    }
+
+    public function students() {
+        return view('User/Teacher/Students');
     }
 }
