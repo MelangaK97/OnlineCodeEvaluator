@@ -10,6 +10,10 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .container-user {
     margin-top: 75px;
 }

@@ -64,30 +64,30 @@
                             <tr>
                                 <td>170298H</td>
                                 <td>Friday, 6 March 2020, 11:50 PM</td>
-                                <td>67.5</td>
-                                <td>32%</td>
-                                <td><a href="">Download</a></td>
+                                <td>67.5<a class="ml-3" href="">Edit</a></td>
+                                <td>32%<a class="ml-3" href="">Check</a></td>
+                                <td><a href="">Download</a><a class="ml-3" href="">Feedback</a></td>
                             </tr>
                             <tr>
                                 <td>170307M</td>
                                 <td>Friday, 6 March 2020, 10:50 PM</td>
-                                <td>87.1</td>
-                                <td>12%</td>
-                                <td><a href="">Download</a></td>
+                                <td>87.1<a class="ml-3" href="">Edit</a></td>
+                                <td>12%<a class="ml-3" href="">Check</a></td>
+                                <td><a href="">Download</a><a class="ml-3" href="">Feedback</a></td>
                             </tr>
                             <tr>
                                 <td>170311U</td>
                                 <td>Friday, 6 March 2020, 11:10 PM</td>
-                                <td>77.8</td>
-                                <td>25%</td>
-                                <td><a href="">Download</a></td>
+                                <td>77.8<a class="ml-3" href="">Edit</a></td>
+                                <td>25%<a class="ml-3" href="">Check</a></td>
+                                <td><a href="">Download</a><a class="ml-3" href="">Feedback</a></td>
                             </tr>
                             <tr>
                                 <td>170313D</td>
                                 <td>Friday, 6 March 2020, 11:42 PM</td>
-                                <td>74.3</td>
-                                <td>29%</td>
-                                <td><a href="">Download</a></td>
+                                <td>74.3<a class="ml-3" href="">Edit</a></td>
+                                <td>29%<a class="ml-3" href="">Check</a></td>
+                                <td><a href="">Download</a><a class="ml-3" href="">Feedback</a></td>
                             </tr>
                         </tbody>
                     </table>
