@@ -39,7 +39,7 @@
                         <input type="password" class="input" name="password">
                     </div>
                 </div>
-                <input type="submit" class="btn" value="Login">
+                <a href="<?php echo base_url('OnlineCodeEvaluator/public/Home/Courses') ?>" type="submit" class="btn" id="login">Login</a>
             </form>
         </div>
     </div>

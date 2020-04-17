@@ -7,13 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher'); ?>">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher/Assignments'); ?>">Assignments</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Issues</a>
+                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher'); ?>">Courses<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher/Compiler'); ?>">Compiler</a>
@@ -26,7 +20,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Profile</a>
-                    <a class="dropdown-item" href="#">Logout</a>
+                    <a class="dropdown-item" href="<?php echo base_url('OnlineCodeEvaluator/public/Home')?>">Logout</a>
                 </div>
             </li>
         </ul>

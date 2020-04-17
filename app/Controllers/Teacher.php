@@ -3,6 +3,14 @@
 class Teacher extends BaseController
 {
     public function index() {
+        return view('User/Teacher/Courses');
+    }
+
+    public function viewCourse() {
+        return view('User/Teacher/ViewCourse');
+    }
+
+    public function createAssignment() {
         return view('User/Teacher/CreateAssignment');
     }
 
@@ -12,5 +20,9 @@ class Teacher extends BaseController
 
     public function assignments() {
         return view('User/Teacher/Assignments');
+    }
+
+    public function issues() {
+        return view('User/Teacher/Issues');
     }
 }

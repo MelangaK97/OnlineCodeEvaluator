@@ -2,8 +2,20 @@
 
 class Home extends BaseController
 {
-	public function index() {
-		return view('User/Student/Home');
+    public function index() {
+        return view('welcome_message');
+    }
+
+    public function Login() {
+        if ($_GET['type'] === 'teacher') {
+            return view('User/Teacher/Login');
+        } else {
+            return view('User/Student/Login');
+        }
+    }
+
+    public function Courses() {
+		return view('User/Student/Courses');
 	}
 
     public function viewCourse() {
@@ -11,7 +23,6 @@ class Home extends BaseController
     }
 
     public function viewAssignment() {
-	    $type = $_GET['type'];
         return view('User/Student/ViewAssignment');
     }
 

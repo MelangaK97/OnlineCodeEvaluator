@@ -9,8 +9,15 @@
     <div class="col-md-10">
         <div class="card">
             <div class="card-header">
-                <h3>Course ID</h3>
-                <h4>Assignment Name</h4>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>Course ID</h3>
+                        <h4>Assignment Name</h4>
+                    </div>
+                    <div class="col-md-2" id="banner">
+                        <a href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher/Issues') ?>" class="btn btn-primary btn-grade align-middle" type="submit" id="view-grade">View Issues</a>
+                    </div>
+                </div>
             </div>
             <div class="card-body">
                 <div class="row">

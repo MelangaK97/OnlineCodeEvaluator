@@ -14,6 +14,23 @@ a:hover {
     text-decoration: none;
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-link {
+    color: white;
+    border-color: white;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
 .container-user {
     margin-top: 75px;
 }
@@ -62,7 +79,7 @@ a:hover {
 .overdue-banner {
     color: red;
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
     border: 2px dotted red;
     border-radius: 5px;
     padding: 5px 20px;
