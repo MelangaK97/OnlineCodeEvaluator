@@ -11,6 +11,7 @@ class Home extends BaseController
     }
 
     public function viewAssignment() {
+	    $type = $_GET['type'];
         return view('User/Student/ViewAssignment');
     }
 

@@ -14,8 +14,8 @@
                             <h2>Course Title</h2>
                             <h3>Assignment Title</h3>
                         </div>
-                        <div class="col-md-2">
-                            <a href="<?php echo base_url('OnlineCodeEvaluator/public/Home/viewGrade') ?>" class="btn btn-primary btn-grade align-middle" type="submit" disabled>View Grade</a>
+                        <div class="col-md-2" id="banner">
+                            <a href="<?php echo base_url('OnlineCodeEvaluator/public/Home/viewGrade') ?>" class="btn btn-primary btn-grade align-middle" type="submit" id="view-grade">View Grade</a>
                         </div>
                     </div>
                 </div>
@@ -66,11 +66,11 @@
                             <form action="" method="post" enctype="multipart/form-data">
                                 <div class="row">
                                     <label class="col-md-3" for="file-input">Submission Status :</label>
-                                    <label class="col-md-9" for="file-input">Submitted for grading</label>
+                                    <label class="col-md-9" for="file-input" id="submission-status">---</label>
                                 </div>
                                 <div class="row">
                                     <label class="col-md-3" for="file-input">Grading Status :</label>
-                                    <label class="col-md-9" for="file-input">Not graded</label>
+                                    <label class="col-md-9" for="file-input" id="grading-status">---</label>
                                 </div>
                                 <div class="row">
                                     <label class="col-md-3" for="file-input">Due Date :</label>
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="row">
                                     <label class="col-md-3" for="file-input">Last Modified :</label>
-                                    <label class="col-md-9" for="file-input">Friday, 6 March 2020, 9:13 PM</label>
+                                    <label class="col-md-9" for="file-input" id="modified">---</label>
                                 </div>
                                 <hr>
                                 <div class="row">
@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary" type="submit">Submit Assignment</button>
+                                <button class="btn btn-primary" type="submit" id="submit-assignment">Submit Assignment</button>
                             </form>
                         </div>
                     </div>
@@ -109,5 +109,30 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script>
+        let type = "<?php echo $_GET['type']; ?>";
+        switch (type) {
+            case 'overdue':
+                $('#submit-assignment').prop('disabled', true);
+                $('#view-grade').remove();
+                $('#banner').append('<label class="overdue-banner">Overdue !!!</label>');
+                $('#submission-status').text('Not submitted anything');
+                console.log('overdue');
+                break;
+            case 'graded':
+                $('#submit-assignment').prop('disabled', true);
+                $('#submission-status').text('Submitted for grading');
+                $('#grading-status').text('Graded');
+                $('#modified').text('Friday, 6 March 2020, 11:23 PM');
+                console.log('graded');
+                break;
+            case 'in-progress':
+                $('#view-grade').remove();
+                console.log('in-progress');
+                break;
+        }
+    </script>
 
 <?= $this->endSection() ?>

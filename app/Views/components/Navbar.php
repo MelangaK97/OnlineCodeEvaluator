@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Courses<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Home')?>">Courses<span class="sr-only">(current)</span></a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">

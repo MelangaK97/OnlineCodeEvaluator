@@ -33,7 +33,7 @@
                             </a>
                         </div>
                         <div class="col mb-4">
-                            <a href="#">
+                            <a href="<?php echo base_url('OnlineCodeEvaluator/public/Home/ViewCourse')?>">
                                 <div class="card">
                                     <div class="row mt-3">
                                         <div class="col-md-2"></div>

@@ -59,3 +59,12 @@ a:hover {
     color: white !important;
 }
 
+.overdue-banner {
+    color: red;
+    font-size: 20px;
+    margin-top: 25px;
+    border: 2px dotted red;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
