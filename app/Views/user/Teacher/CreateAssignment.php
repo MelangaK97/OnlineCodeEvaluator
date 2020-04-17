@@ -17,7 +17,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="title">Title:</label>
-                                    <input class="form-control" type="text" name="title" id="title" placeholder="Add Title Here...">
+                                    <input class="form-control" type="text" name="title" id="title" placeholder="Add Title Here..." required>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -30,7 +30,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="deadline">Deadline:</label>
-                                    <input type="date" class="form-control" name="deadline" id="deadline">
+                                    <input type="date" class="form-control" name="deadline" id="deadline" required>
                                 </div>
                             </div>
                         </div>

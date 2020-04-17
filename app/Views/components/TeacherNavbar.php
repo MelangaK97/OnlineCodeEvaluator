@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="<?php echo base_url('OnlineCodeEvaluator/public/Home/Login'); ?>">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -7,13 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher'); ?>">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Assignments</a>
+                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher/Assignments'); ?>">Assignments</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Issues</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('OnlineCodeEvaluator/public/Teacher/Compiler'); ?>">Compiler</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">
